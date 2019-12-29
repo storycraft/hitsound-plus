@@ -1,0 +1,46 @@
+{
+    "hitsound.normal": {
+	    "replace": true,
+        "category": "player",
+	    "sounds": [
+            {
+            "name": "hitsound-plus:entity/player/attack/hitnormal",
+            "stream": false,
+            "pitch": 1.0
+            }
+		]
+    },
+    "hitsound.clap": {
+        "replace": true,
+        "category": "player",
+	    "sounds": [
+            {
+            "name": "hitsound-plus:entity/player/attack/hitclap",
+            "stream": false,
+            "pitch": 1.0
+            }
+		]
+    },
+	"hitsound.finish": {
+	    "replace": true,
+        "category": "player",
+	    "sounds": [
+            {
+            "name": "hitsound-plus:entity/player/attack/hitfinish",
+            "stream": false,
+            "pitch": 1.0
+            }
+		]
+    },
+    "combo.break": {
+	    "replace": true,
+        "category": "player",
+	    "sounds": [
+            {
+            "name": "hitsound-plus:combo/combobreak",
+            "stream": false,
+            "pitch": 1.0
+            }
+		]
+    }
+}

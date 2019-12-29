@@ -1,0 +1,16 @@
+[
+{
+  "modid": "hitsound-plus",
+  "name": "Hitsound plus",
+  "description": "Improved hitsound mod inspired by mod story-pvp-util.",
+  "version": "${version}",
+  "mcversion": "${mcversion}",
+  "url": "",
+  "updateUrl": "",
+  "authorList": ["storycraft"],
+  "credits": "me",
+  "logoFile": "",
+  "screenshots": [],
+  "dependencies": []
+}
+]
