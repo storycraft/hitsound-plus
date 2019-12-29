@@ -38,7 +38,7 @@ public class ComboCounter {
     private static final int SCREEN_SPRITE_WIDTH = 15;
     private static final int SCREEN_SPRITE_HEIGHT = 20;
 
-    private static final int MIN_COMBO_REQUIRED = 20;
+    private static final int MIN_COMBO_REQUIRED = 10;
 
     private HitsoundPlus mod;
     private Minecraft minecraft;
