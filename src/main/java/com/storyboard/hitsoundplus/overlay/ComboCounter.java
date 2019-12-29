@@ -179,10 +179,9 @@ public class ComboCounter {
                 if (lastPos != null && pos != lastPos
                     && lastPos.typeOfHit == MovingObjectType.ENTITY && pos.typeOfHit != MovingObjectType.ENTITY) {
 
-                    if (!lastPos.entityHit.isDead && currentCombo >= MIN_COMBO_REQUIRED) {
+                    if (!lastPos.entityHit.isDead && currentCombo >= MIN_COMBO_REQUIRED && pos.typeOfHit == MovingObjectType.MISS) {
                         mc.thePlayer.playSound(soundComboBreak.toString(), 1f, 1f);
                     }
-
                     setCombo(0);
                 }
 
